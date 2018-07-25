@@ -32,7 +32,7 @@ td:first-letter {
 tr:nth-child(even) {
   background-color: #ddd;
 }
-tr:nth-child(odd) td:nth-child(1n+5) {
+tr:nth-child(odd) td:nth-child(n+5) {
   font-style: italic;
   font-weight: bold;
 }
