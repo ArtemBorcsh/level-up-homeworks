@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <title>HomeworkCSS2</title>
-    <link rel="stylesheet" href="css/style.css">
     <style>a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,td,th{text-align:left;font-weight:400;vertical-align:middle}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}button,input,optgroup,select,textarea{background:0 0;border:0;padding:0;margin:0;font:inherit;color:inherit;box-shadow:none}button{height:auto;cursor:pointer}button:focus{outline:0}button::-moz-focus-inner{outline:0;border:0;padding:0}
     </style>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <div class="wrapper">
@@ -17,64 +17,64 @@
           <a href="">Contacts</a>
         </nav>
         <div class="entrance">
-          <a href="">Log in /</a>
+          <a class="log" href="">Log in</a>
           <a href="">Sign in</a>
         </div>
       </header>
       <div class="content">
-        <div class="gallery">
-          <h1>Gallery</h1>
-          <table>
-            <tbody>
-              <tr>
-                <td>
-                  <a href="image/1.jpg">
-                    <img src="image/1.jpg" alt="" />
-                  </a>
-                </td>
-                <td>
-                  <a href="image/2.jpg">
-                    <img src="image/2.jpg" alt="" />
-                  </a>
-                </td>
-                <td>
-                  <a href="image/3.jpg">
-                    <img src="image/3.jpg" alt="" />
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="image/4.jpg">
-                    <img src="image/4.jpg" alt="" />
-                  </a>
-                </td>
-                <td>
-                  <a href="image/5.jpg">
-                    <img src="image/5.jpg" alt="" />
-                  </a>
-                </td>
-                <td>
-                  <a href="image/6.jpg">
-                    <img src="image/6.jpg" alt="" />
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
         <main>
-          <article>
+          <div class="gallery">
+            <h1>Gallery</h1>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="image/1.jpg">
+                      <img src="image/1.jpg" alt="" />
+                    </a>
+                  </td>
+                  <td>
+                    <a href="image/2.jpg">
+                      <img src="image/2.jpg" alt="" />
+                    </a>
+                  </td>
+                  <td>
+                    <a href="image/3.jpg">
+                      <img src="image/3.jpg" alt="" />
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="image/4.jpg">
+                      <img src="image/4.jpg" alt="" />
+                    </a>
+                  </td>
+                  <td>
+                    <a href="image/5.jpg">
+                      <img src="image/5.jpg" alt="" />
+                    </a>
+                  </td>
+                  <td>
+                    <a href="image/6.jpg">
+                      <img src="image/6.jpg" alt="" />
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <section>
             <h2>About gallery</h2>
             <p>
              Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quaerat laboriosam blanditiis mollitia qui non, molestiae, minus placeat recusandae, eum cumque. Cum quia tempora vel voluptate accusamus quas deserunt dolore quo, ea eius nulla minus neque! Odit sunt tempore excepturi at, odio debitis, eius omnis delectus expedita ullam hic voluptates pariatur corporis, recusandae illo non itaque commodi vitae. Eius inventore, unde. Nihil quos facere, quia a in libero, labore, enim veniam at, ullam inventore rem. 
             </p>
-          </article>
+          </section>
         </main>
         <form method="post" class="subscribe">
           <h2>Subscribe for new updates</h2>
-          <input id="email" type="email" name="email" placeholder="Email*" required="required" />
-          <button id="button" type="submit">subscribe</button>
+          <input class="email" type="email" name="email" placeholder="Email*" required="required" />
+          <button class="button" type="submit">subscribe</button>
         </form>
       </div>
       <footer>
