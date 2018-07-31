@@ -41,7 +41,7 @@ footer {
   box-sizing: border-box;
 }
 body {
-  font-family: arial;
+  font-family: Arial;
 }
 header {
   position: relative;
@@ -52,7 +52,7 @@ header {
   position: absolute;
   right: 0;
   margin-right: 15px;
-  top: 33%;
+  top: 15px;
 }
 .gallery h1 {
   font-size: 28px;
