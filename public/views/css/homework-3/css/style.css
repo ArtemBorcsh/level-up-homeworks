@@ -39,7 +39,6 @@ footer {
 }
 body {
   font-family: Arial;
-  height: 100%;
 }
 header {
   line-height: 30px;
@@ -54,53 +53,47 @@ header {
   color: white;
   font-weight: bold;
 }
-.active-button {
+.active {
   text-decoration: underline;
 }
 .content {
-  margin: 80px;
+  margin: 80px 175px;
   width: 1170px;
   font-size: 0px;
-  align-self: center;
-}
-main {
-  margin-bottom: 20px;
 }
 h1 {
   font-size: 45px;
   margin-bottom: 20px;
   font-weight: bold;
 }
-.table-cards {
-  width: 360px;
+.container {
+  margin: 30px 0;
+}
+.card {
+  width: 33.333333333333336%;
   display: inline-block;
-  position: relative;
-  padding: 15px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
-  margin: 15px 15px;
+  margin-bottom: 30px;
+}
+.image-block {
+  position: relative;
 }
 .image {
   width: 100%;
-  margin-bottom: 25px;
-  height: 215px;
-  /*position: relative;*/
 }
 .favourite {
   position: absolute;
-  top: 30px;
-  left: 30px;
+  top: 15px;
+  left: 15px;
 }
-.favourite:hover {
-  background: silver;
-}
-.favourite:active {
-  background: dimgray;
+.text-block {
+  padding: 25px 15px;
 }
 h2 {
   font-size: 24px;
-  /*font-weight: bold;*/
+  margin-bottom: 15px;
 }
-.span {
+span {
   font-size: 16px;
 }
 .view {
@@ -114,22 +107,31 @@ h2 {
   padding: 8px;
   margin-top: 10px;
 }
+.view:hover {
+  background-color: silver;
+}
+.view:active {
+  background-color: dimgray;
+}
 .pages {
   text-align: center;
   font-size: 14px;
 }
-.page-first {
+.page.active {
   font-weight: bold;
   margin: 0 10px 0 0;
+  text-decoration: none;
 }
-.page-others {
+.page {
   text-decoration: underline;
   margin: 0 10px; 
 }
-.bottom {
+.page:nth-child(4n) {
+  margin: 0 0 0 10px;
+}
+footer {
   text-align: center;
-  line-height: 30px;
-  padding: 10px 25px;
+  padding: 15px 15px;
   width: 100%;
   color: white;
   background-color: #3F51B5;
