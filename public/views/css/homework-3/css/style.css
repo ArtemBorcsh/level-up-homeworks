@@ -53,13 +53,24 @@ header {
   color: white;
   font-weight: bold;
 }
+.nav-link:first-child {
+  margin-left: -10px;
+}
+.nav-link:last-child {
+  margin-right: -10px;
+}
+.nav-link {
+  margin: 10px;
+}
 .active {
   text-decoration: underline;
 }
 .content {
-  margin: 80px 175px;
+  margin: 0 auto;
   width: 1170px;
   font-size: 0px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 h1 {
   font-size: 45px;
@@ -69,12 +80,14 @@ h1 {
 .container {
   margin: 30px 0;
 }
-.card {
-  width: 30%;
+.column {
   display: inline-block;
+  padding: 0 15px;
+  width: 33.33336%;
+}
+.card {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
   margin-bottom: 30px;
-  margin-left: 39px;
 }
 .image-block {
   position: relative;
@@ -94,7 +107,7 @@ h2 {
   font-size: 24px;
   margin-bottom: 15px;
 }
-span {
+.card-text {
   font-size: 16px;
 }
 .view {
@@ -118,17 +131,19 @@ span {
   text-align: center;
   font-size: 14px;
 }
-.page.active {
-  font-weight: bold;
-  margin: 0 10px 0 0;
-  text-decoration: none;
+.page:first-child {
+  margin-left: -10px;
+}
+.page:last-child {
+  margin-right: -10px;
 }
 .page {
   text-decoration: underline;
   margin: 0 10px; 
 }
-.page:nth-child(4n) {
-  margin: 0 0 0 10px;
+.active {
+  text-decoration: none;
+  font-weight: bold;
 }
 footer {
   text-align: center;
