@@ -1,0 +1,68 @@
+.container {
+  width: 300px;
+  height: 300px;
+}
+.puzzle1 {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 70px;
+  height: 70px;
+  background-color: #8E44AD;
+  float: left; 
+}
+.puzzle2 {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 145px;
+  height: 70px;
+  background-color: #2ECC71;
+  float: left;
+}
+.puzzle3 {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 70px;
+  height: 145px;
+  background-color: #E74C3C;
+  float: right;
+}
+.puzzle4 {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 70px;
+  height: 220px;
+  background-color: #3498DB;
+  float: left;
+}
+.puzzle5 {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 70px;
+  height: 145px;
+  background-color: #E74C3C;
+  float: left;
+}
+.puzzle6 {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 70px;
+  height: 70px;
+  background-color: #F1C40F;
+  float: left
+}
+.puzzle7 {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 145px;
+  height: 70px;
+  background-color: #2ECC71;
+  float: right;
+}
+.puzzle8 {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 220px;
+  height: 70px;
+  background-color: #3498DB;
+  float: left;
+}
