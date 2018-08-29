@@ -316,7 +316,7 @@ input:checked + .checkbox:after {
   border-radius: 3px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-.card__card-background {
+.card__background {
   background-image: url(../images/everest.jpg);
   background-size: 100% 100%;
   height: 240px;
@@ -324,32 +324,37 @@ input:checked + .checkbox:after {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
-.card__card-background-text {
+.card__title {
   position: absolute;
   bottom: 15px;
   left: 20px;
   color: white;
 }
-.card__text-block {
+.card__content {
   font-size: 16px;
   padding: 15px;
   background-color: white;
 }
-.card__text-block-heading {
+.card__heading {
   color: #878787;
   font-size: 14px;
 }
-.card__text-block-description {
+.card__description {
   margin: 10px 0; 
 }
-.card__button-link {
-  color: green;
+.card__buttons {
   display: inline-block;
-  margin-right: 10px;
-  text-transform: uppercase;
   font-size: 18px;
-  text-decoration: none;
+  padding-right: 10px;
+  
 }
-.card__button-link:last-child {
-  margin-right: 0;
+.card__buttons:last-child {
+  padding-right: 0;
+}
+.card__buttons-link {
+  color: green;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 6px;
+  line-height: 27px;
 }
