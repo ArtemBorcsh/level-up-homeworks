@@ -356,5 +356,5 @@ input:checked + .checkbox:after {
   text-transform: uppercase;
   text-decoration: none;
   padding: 0 6px;
-  line-height: 25px;
+  line-height: 30px;
 }
