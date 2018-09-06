@@ -342,13 +342,16 @@ input:checked + .checkbox:after {
 .card__description {
   margin: 10px 0; 
 }
+.button-container {
+  font-size: 0px;
+}
 .card-buttons {
   display: inline-block;
 }
 .card-buttons:last-child {
   padding-right: 0;
 }
-.buttons-link {
+.button {
   font-size: 18px;
   display: inline-block;
   height: 30px;
